@@ -1,7 +1,7 @@
 
 public class Token {
 
-    public enum TokenType {
+    public static enum TokenType {
 	keywordToken, identifierToken, cellToken, numberToken, unaryOpToken, binaryOpToken, commaToken, semicolonToken,
 	assignmnetToken, singleLineCommentToken, parentDirectoryToken,
     }
@@ -11,7 +11,7 @@ public class Token {
     }
 
     public enum BinaryOpType {
-	addOp, subtractOp, multiplyOp, divideOp,
+	addOp, subtractOp, multiplyOp, divideOp, equalOp, notEqualOp, andOp, orOp, notOp
     }
 
     public enum KeywordType {
